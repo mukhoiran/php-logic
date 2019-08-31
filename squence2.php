@@ -1,5 +1,5 @@
 <?php
-// function for get squence row number
+// function for get squence row number2
 function squenceRow2($number,$limit){
   for ($i=1; $i <= $number; $i++) {
     $array[$i] = $i;
@@ -13,7 +13,7 @@ function squenceRow2($number,$limit){
   }
 }
 
-//input number
+//input number and row limit
 $number = 12;
 $limit = 4;
 squenceRow2($number,$limit);

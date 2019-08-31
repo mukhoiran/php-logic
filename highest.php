@@ -1,7 +1,6 @@
 <?php
 //Function for get highest value in array
-function getHighest($array){
-  $highest = 0;
+function getHighest($array, $highest = 0){
   foreach($array as $item){
       if ($item > $highest){
           $highest = $item;
